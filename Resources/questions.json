@@ -1,0 +1,552 @@
+[
+    {
+        "id": 1,
+        "question": "¿Cuál es una ventaja de usar una lista enlazada sobre un array?",
+        "answers": [
+            "Permite una inserción y eliminación más eficiente de elementos en cualquier posición*",
+            "Ocupa menos memoria que un array",
+            "Proporciona acceso directo a los elementos",
+            "No requiere enlaces entre elementos"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 2,
+        "question": "¿Qué es un nodo en una estructura de datos?",
+        "answers": [
+            "Un valor numérico que representa un índice",
+            "Una función que permite agregar elementos",
+            "Es un registro que contiene datos y un puntero que referencia a otro nodo*",
+            "Un conjunto de valores dispuestos en una lista"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 3,
+        "question": "¿Qué son los árboles binarios?",
+        "answers": [
+            "Estructuras de datos lineales que permiten almacenar datos en memoria consecutiva",
+            "Son estructuras en las que cada nodo puede tener hasta tres hijos",
+            "Son estructuras de datos en las que cada nodo contiene un valor y referencias a un nodo hijo izquierdo y otro derecho*",
+            "Una estructura de datos sin nodos y sin enlaces"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 4,
+        "question": "¿Qué partes componen a un nodo en una lista enlazada?",
+        "answers": [
+            "Un enlace, un dato y un valor de índice",
+            "Un dato y un enlace*",
+            "Solo un dato",
+            "Un enlace y una posición"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 5,
+        "question": "¿Qué es una lista enlazada doble?",
+        "answers": [
+            "Es una lista en la que cada nodo tiene un enlace a un nodo central",
+            "Es una estructura de datos que permite navegar hacia adelante y hacia atrás, y consiste en un conjunto de nodos enlazados secuencialmente*",
+            "Es una lista en la que todos los nodos apuntan al nodo inicial",
+            "Es una lista que permite sólo enlaces unidireccionales entre nodos"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 6,
+        "question": "¿Qué es una lista enlazada circular?",
+        "answers": [
+            "Es una lista en la que el primer nodo apunta al último nodo",
+            "Es una lista en la que cada nodo tiene dos enlaces a nodos aleatorios",
+            "Es una lista enlazada en la que el último nodo apunta al primero*",
+            "Es una lista en la que cada nodo tiene un enlace al nodo que le sigue"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 7,
+        "question": "¿Qué es una lista enlazada simple?",
+        "answers": [
+            "Es una estructura que permite enlaces bidireccionales entre nodos",
+            "Es una estructura de datos que permite navegar hacia adelante y consiste en un conjunto de nodos enlazados secuencialmente*",
+            "Es una estructura en la que cada nodo tiene tres enlaces a otros nodos",
+            "Es una lista en la que todos los nodos están conectados a un nodo raíz"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 8,
+        "question": "¿Qué es una lista enlazada circular doble?",
+        "answers": [
+            "Es una lista donde todos los nodos apuntan a un nodo central",
+            "Es una lista en la que cada nodo apunta a dos nodos aleatorios en la lista",
+            "Es una lista enlazada en la que el último nodo apunta al primero y el primer nodo apunta al último*",
+            "Es una lista en la que cada nodo sólo tiene un enlace al siguiente nodo"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 9,
+        "question": "¿Qué es una pila en estructura de datos?",
+        "answers": [
+            "Una estructura de datos en la que los elementos se añaden y se eliminan al final de la lista*",
+            "Una estructura que permite insertar y eliminar elementos en cualquier posición",
+            "Una estructura en la que los elementos se procesan en orden FIFO (First In, First Out)",
+            "Una estructura en la que se insertan elementos en el último lugar y se eliminan en el primer lugar"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 10,
+        "question": "¿Qué es una cola en estructura de datos?",
+        "answers": [
+            "Una estructura que permite añadir elementos al inicio y eliminarlos al final",
+            "Una estructura en la que se eliminan los elementos primero insertados (FIFO)*",
+            "Una lista en la que los elementos no tienen un orden específico",
+            "Una estructura en la que los elementos se eliminan en el orden inverso al de inserción"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 11,
+        "question": "¿Cuál es la principal característica de una pila?",
+        "answers": [
+            "Es una estructura de acceso directo a cualquier elemento",
+            "Permite agregar y quitar elementos en cualquier posición",
+            "Los elementos se apilan y se eliminan en orden LIFO (Last In, First Out)*",
+            "Cada elemento tiene un enlace al anterior y al siguiente"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 12,
+        "question": "¿Qué operación elimina el elemento superior de una pila?",
+        "answers": [
+            "Insertar",
+            "Push",
+            "Peek",
+            "Pop*"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 13,
+        "question": "¿Qué método permite visualizar el último elemento agregado en una pila sin eliminarlo?",
+        "answers": [
+            "Peek*",
+            "Pop",
+            "Push",
+            "Enqueue"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 14,
+        "question": "¿Qué estructura de datos se utiliza en el sistema de llamadas a funciones en un programa?",
+        "answers": [
+            "Cola",
+            "Árbol binario",
+            "Lista circular",
+            "Pila*"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 15,
+        "question": "¿Cuál es la principal característica de una cola?",
+        "answers": [
+            "Permite eliminar elementos en cualquier posición",
+            "Los elementos se procesan en orden FIFO (First In, First Out)*",
+            "Elimina el último elemento insertado",
+            "Permite el acceso directo a cualquier elemento"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 16,
+        "question": "¿Cuál es el método que se utiliza para agregar elementos a una cola?",
+        "answers": [
+            "Push",
+            "Enqueue*",
+            "Pop",
+            "Peek"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 17,
+        "question": "¿Cuál es el método que se utiliza para eliminar elementos en una cola?",
+        "answers": [
+            "Dequeue*",
+            "Push",
+            "Peek",
+            "Insert"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 18,
+        "question": "¿En qué estructura de datos se basa la implementación de un árbol de decisiones?",
+        "answers": [
+            "Lista enlazada simple",
+            "Árbol binario*",
+            "Cola",
+            "Pila"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 19,
+        "question": "¿Cuál es la característica de un nodo hoja en un árbol binario?",
+        "answers": [
+            "Tiene un enlace al nodo raíz",
+            "No tiene nodos hijos*",
+            "Tiene dos enlaces a otros nodos",
+            "Contiene tres enlaces"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 20,
+        "question": "¿Qué operación se utiliza para recorrer todos los nodos de un árbol binario en profundidad?",
+        "answers": [
+            "Recorrido en orden",
+            "Recorrido en anchura",
+            "Recorrido en preorden*",
+            "Recorrido en FIFO"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 21,
+        "question": "¿Qué es una lista enlazada simple?",
+        "answers": [
+            "Es una lista donde cada nodo tiene un enlace al siguiente nodo*",
+            "Es una lista donde cada nodo apunta tanto al anterior como al siguiente",
+            "Es una lista donde todos los nodos apuntan al primero",
+            "Es una lista circular en la que el último nodo apunta al primero"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 22,
+        "question": "¿Cuál es una ventaja de una lista enlazada sobre un array?",
+        "answers": [
+            "Permite un acceso más rápido a elementos específicos",
+            "No ocupa espacio adicional en memoria",
+            "Facilita la inserción y eliminación de elementos en cualquier posición*",
+            "No requiere enlaces entre elementos"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 23,
+        "question": "¿Qué operación permite agregar un nodo al inicio de una lista enlazada simple?",
+        "answers": [
+            "Push",
+            "Append",
+            "InsertAtStart*",
+            "Dequeue"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 24,
+        "question": "¿En qué tipo de lista enlazada cada nodo apunta al siguiente y al anterior?",
+        "answers": [
+            "Lista enlazada simple",
+            "Lista enlazada doble*",
+            "Pila",
+            "Lista circular"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 25,
+        "question": "¿Qué tipo de estructura es más adecuada para gestionar un historial de navegador?",
+        "answers": [
+            "Lista enlazada simple",
+            "Pila*",
+            "Cola",
+            "Árbol binario"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 26,
+        "question": "¿Qué estructura de datos se usa para implementar un sistema de impresiones en una oficina?",
+        "answers": [
+            "Pila",
+            "Cola*",
+            "Árbol binario",
+            "Lista enlazada"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 27,
+        "question": "¿Cuál es una ventaja de una lista enlazada circular sobre una lista enlazada simple?",
+        "answers": [
+            "Permite la eliminación de elementos en orden inverso",
+            "Facilita el acceso continuo desde el último nodo al primero*",
+            "Permite la indexación de elementos",
+            "Es más rápida en operaciones de acceso aleatorio"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 28,
+        "question": "¿Qué define un nodo raíz en un árbol binario?",
+        "answers": [
+            "Es un nodo sin padre y con un único hijo",
+            "Es el nodo principal desde el cual parten todos los demás nodos*",
+            "Es el último nodo de cada rama",
+            "Es un nodo con tres hijos"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 29,
+        "question": "¿Qué operación permite eliminar el nodo inicial de una lista enlazada simple?",
+        "answers": [
+            "Push",
+            "Insert",
+            "Dequeue",
+            "RemoveAtStart*"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 30,
+        "question": "¿Qué es una lista enlazada doble circular?",
+        "answers": [
+            "Es una lista en la que el último nodo apunta al primero y el primero al último, con enlaces bidireccionales*",
+            "Es una lista en la que cada nodo apunta a dos nodos",
+            "Es una lista simple con un enlace al primer nodo",
+            "Es una pila especial con doble enlace"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 31,
+        "question": "¿Qué estructura de datos se utiliza en el manejo de recursión?",
+        "answers": [
+            "Árbol binario",
+            "Pila*",
+            "Cola",
+            "Lista enlazada circular"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 32,
+        "question": "¿Qué recorrido en un árbol binario visita primero el nodo raíz, luego el hijo izquierdo y finalmente el derecho?",
+        "answers": [
+            "En orden",
+            "En postorden",
+            "En preorden*",
+            "En anchura"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 33,
+        "question": "¿Qué tipo de lista enlazada sería ideal para una playlist circular?",
+        "answers": [
+            "Lista enlazada simple",
+            "Lista circular*",
+            "Pila",
+            "Árbol binario"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 34,
+        "question": "¿Cuál es la principal función de un árbol binario de búsqueda?",
+        "answers": [
+            "Facilitar la búsqueda rápida de elementos en orden*",
+            "Almacenar elementos en memoria secuencial",
+            "Facilitar la búsqueda en orden inverso",
+            "Almacenar elementos en orden de llegada"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 35,
+        "question": "¿Qué representa la profundidad de un árbol binario?",
+        "answers": [
+            "El número de nodos en el árbol",
+            "La longitud de la ruta más larga desde la raíz hasta una hoja*",
+            "El número de nodos en una rama específica",
+            "La cantidad de nodos hoja"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 36,
+        "question": "¿Qué operación en una lista enlazada doble permite avanzar y retroceder?",
+        "answers": [
+            "Pila",
+            "Iteración bidireccional*",
+            "Dequeue",
+            "Enlace directo"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 37,
+        "question": "¿Qué operación elimina el nodo final en una lista enlazada circular?",
+        "answers": [
+            "RemoveAtEnd*",
+            "RemoveAtStart",
+            "Pop",
+            "Dequeue"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 38,
+        "question": "¿Cómo se llama el nodo de mayor profundidad en un árbol binario?",
+        "answers": [
+            "Nodo raíz",
+            "Nodo terminal",
+            "Nodo hoja*",
+            "Nodo principal"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 39,
+        "question": "¿Cuál es una ventaja de una lista circular en comparación con una lista doble?",
+        "answers": [
+            "Permite que el último nodo apunte al primero, facilitando el acceso continuo*",
+            "Permite mayor capacidad de almacenamiento",
+            "Reduce el tiempo de acceso en listas largas",
+            "Permite eliminar elementos en ambos extremos"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 40,
+        "question": "¿Cuál es la mejor estructura para implementar una cola de atención al cliente?",
+        "answers": [
+            "Pila",
+            "Cola*",
+            "Lista enlazada doble",
+            "Árbol binario"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 41,
+        "question": "¿Qué operación es común en listas enlazadas circulares para reutilizar nodos?",
+        "answers": [
+            "Eliminación bidireccional",
+            "Recorrido en bucle continuo*",
+            "Acceso directo",
+            "Iteración inversa"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 42,
+        "question": "¿Qué define un nodo en una lista enlazada simple?",
+        "answers": [
+            "Tiene dos enlaces, uno al nodo anterior y otro al siguiente",
+            "Es un enlace a la raíz del árbol",
+            "Tiene un enlace al siguiente nodo o un valor nulo*",
+            "Es un nodo que permite iteración inversa"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 43,
+        "question": "¿Qué estructura facilita la implementación de un editor de texto con 'deshacer' y 'rehacer'?",
+        "answers": [
+            "Lista enlazada simple",
+            "Pila*",
+            "Árbol binario",
+            "Cola"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 44,
+        "question": "¿Qué recorrido visita primero los nodos hoja antes de los nodos raíz?",
+        "answers": [
+            "Preorden",
+            "Postorden*",
+            "En orden",
+            "Anchura"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 45,
+        "question": "¿Qué tipo de lista enlazada sería más útil para navegar en una colección de canciones?",
+        "answers": [
+            "Lista enlazada doble",
+            "Lista circular*",
+            "Pila",
+            "Árbol binario"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 46,
+        "question": "¿Qué tipo de recorrido es ideal para examinar todos los niveles de un árbol binario?",
+        "answers": [
+            "Recorrido en anchura*",
+            "Recorrido en profundidad",
+            "Recorrido en preorden",
+            "Recorrido en postorden"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 47,
+        "question": "¿En qué estructura de datos se deben guardar los elementos para el modelo FIFO?",
+        "answers": [
+            "Árbol binario",
+            "Lista enlazada",
+            "Cola*",
+            "Pila"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 48,
+        "question": "¿Qué operación en una lista enlazada simple permite iterar hacia el siguiente nodo?",
+        "answers": [
+            "Enlace al siguiente nodo*",
+            "Enlace al nodo anterior",
+            "Enlace bidireccional",
+            "Enlace a la raíz"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 49,
+        "question": "¿Qué tipo de lista enlazada es adecuada para implementar una colección con acceso de inicio y fin?",
+        "answers": [
+            "Lista enlazada doble*",
+            "Lista enlazada simple",
+            "Pila",
+            "Árbol binario"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 50,
+        "question": "¿Qué tipo de estructura se utiliza en un sistema de organización jerárquica?",
+        "answers": [
+            "Lista enlazada simple",
+            "Árbol binario*",
+            "Pila",
+            "Cola"
+        ],
+        "correctAnswer": 1
+    }
+]
