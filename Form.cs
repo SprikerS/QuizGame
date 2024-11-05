@@ -10,7 +10,7 @@ namespace QuizGame
     public partial class Form : System.Windows.Forms.Form
     {
         // Frase dinámica que puedes cambiar según desees
-        private string phrase = "Cada pequeño paso que das hoy te acerca más a tus grandes sueños de mañana";
+        private string phrase = string.Empty;
 
         // Lista de preguntas cargadas desde el archivo JSON
         ListQuestions listQuestions = new ListQuestions();
@@ -32,6 +32,7 @@ namespace QuizGame
         {
             InitializeComponent();
             InitializePhrase();
+            LoadPhrase();
             LoadQuestions();
             UpdateObtainedPhrase();
         }
@@ -77,6 +78,29 @@ namespace QuizGame
             catch (Exception ex)
             {
                 Console.WriteLine($"Error al cargar las preguntas: {ex.Message}");
+            }
+        }
+
+        private void LoadPhrase()
+        {
+            try
+            {
+                // Leer el contenido de las frases desde los recursos
+                string phrasesContent = Properties.Resources.phrases;
+
+                // Dividir las frases por cada salto de línea
+                string[] allPhrases = phrasesContent.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
+
+                // Elegir una frase aleatoria
+                Random random = new Random();
+                phrase = allPhrases[random.Next(allPhrases.Length)].Trim(); // Seleccionar una frase al azar
+
+                // Inicializar las palabras de la frase
+                InitializePhrase();  // Inicializa la frase separando sus palabras en un array
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar las frases: " + ex.Message);
             }
         }
 
@@ -216,6 +240,7 @@ namespace QuizGame
         {
             obtainedWords.Clear();  // Vacía la pila
             InitializePhrase();     // Reinicia la frase y pila
+            LoadPhrase();           // Carga una nueva frase
             LoadQuestions();        // Carga las preguntas nuevamente
 
             correctAnswers = 0;     // Reinicia las respuestas correctas
@@ -239,6 +264,9 @@ namespace QuizGame
 
             // Actualizar el número de corazones obtenidos
             lblHearts.Text = obtainedWords.Count.ToString("D2");
+
+            // Actualizamos la frase obtenida hasta el momento
+            lblPhraseComplete.Text = string.Join(" ", obtainedWords.Reverse());
         }
 
         private int GetSelectedAnswerIndex()

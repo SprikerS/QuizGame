@@ -91,6 +91,27 @@ namespace QuizGame.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a &quot;Cada pequeño paso que das hoy te acerca más a tus grandes sueños de mañana&quot;
+        ///
+        ///&quot;El éxito no es la clave de la felicidad, la felicidad es la clave del éxito. Si amas lo que haces, tendrás éxito&quot;
+        ///
+        ///&quot;No te rindas. El camino puede ser duro, pero la recompensa será inmensa&quot;
+        ///
+        ///&quot;Cada desafío es una oportunidad para aprender y ser mejor que ayer&quot;
+        ///
+        ///&quot;El esfuerzo de hoy es la victoria de mañana. Sigue adelante&quot;
+        ///
+        ///&quot;El aprendizaje no tiene fin; es una aventura que te llevará más lejos de lo que imaginas&quot;
+        ///
+        ///&quot;Las d [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string phrases {
+            get {
+                return ResourceManager.GetString("phrases", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap question {
